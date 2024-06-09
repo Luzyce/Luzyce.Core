@@ -25,6 +25,6 @@ jobs:
       run: dotnet pack -c Release  
     - name: Extract version number
       id: extract_version
-      run: echo "##[set-output name=version;]$(grep -oPm1 "(?<=<Version>)[^<]+" /Luzyce.Core/Luzyce.Core.csproj)"
+      run: echo "##[set-output name=version;]$(grep -oPm1 "(?<=<Version>)[^<]+" Luzyce.Core/Luzyce.Core.csproj)"
     - name: Push
-      run: dotnet nuget push /Luzyce.Core/bin/Release/Luzyce.Core.${{ steps.extract_version.outputs.version }}.nupkg -k "${{ secrets.NUGET_PUBLISH_KEY }}" -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push Luzyce.Core/bin/Release/Luzyce.Core.${{ steps.extract_version.outputs.version }}.nupkg -k "${{ secrets.NUGET_PUBLISH_KEY }}" -s https://api.nuget.org/v3/index.json
