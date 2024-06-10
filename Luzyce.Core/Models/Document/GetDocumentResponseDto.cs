@@ -5,7 +5,7 @@ namespace Luzyce.Core.Models.Document;
 public class GetDocumentResponseDto
 {
     public int Id { get; set; }
-    public int DocNumber { get; set; };
+    public int DocNumber { get; set; }
     public GetWarehouseResponseDto? Warehouse { get; set; } = new GetWarehouseResponseDto();
     public int Year { get; set; }
     public string? Number { get; set; }
