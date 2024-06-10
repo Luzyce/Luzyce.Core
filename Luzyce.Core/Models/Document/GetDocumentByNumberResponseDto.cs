@@ -4,5 +4,5 @@ public class GetDocumentByNumberResponseDto
 {
     public int Id { get; set; }
     public string? Number { get; set; }
-    public GetDocumentPositionResponseDto? DocumentPosition { get; set; } = new GetDocumentPositionResponseDto();
+    public GetDocumentPositionsResponseDto? DocumentPositions { get; set; } = new GetDocumentPositionsResponseDto();
 }

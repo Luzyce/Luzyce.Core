@@ -1,6 +1,6 @@
 namespace Luzyce.Core.Models.Document;
 
-public class GetDocumentPositionResponseDto
+public class GetDocumentPositionsResponseDto
 {
     public int Id { get; set; }
     public int QuantityNetto { get; set; }
