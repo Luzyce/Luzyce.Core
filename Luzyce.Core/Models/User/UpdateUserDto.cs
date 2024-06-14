@@ -11,5 +11,5 @@ public class UpdateUserDto
     public required string Email { get; set; }
     public required string Login { get; set; }
     public required string Hash { get; set; }
-    public required bool Admin { get; set; }
+    public GetRoleDto Role { get; set; } = new GetRoleDto();
 }
