@@ -1,6 +1,6 @@
 ﻿namespace Luzyce.Core.Models.ProductionOrder;
 
-public class GetProductionOrderPositionsDto
+public class GetProductionOrderPositionDto
 {
     public int DocumentId { get; set; }
     public string Symbol { get; set; } = string.Empty;
