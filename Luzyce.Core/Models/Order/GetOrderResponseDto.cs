@@ -8,5 +8,5 @@ public class GetOrderResponseDto
     public int CustomerId { get; set; }
     public string CustomerSymbol { get; set; } = string.Empty;
     public string CustomerName { get; set; } = string.Empty;
-    public List<GetOrderItemResponseDto> Items { get; set; } = [];
+    public List<GetOrderPositionResponseDto> Positions { get; set; } = [];
 }
