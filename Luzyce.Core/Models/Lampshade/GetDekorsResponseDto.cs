@@ -2,5 +2,5 @@
 
 public class GetDekorsResponseDto
 {
-    List<GetDekorResponseDto> Dekors { get; set; }
+    public List<GetDekorResponseDto> Dekors { get; set; }
 }
