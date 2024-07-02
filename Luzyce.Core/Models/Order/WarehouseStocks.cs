@@ -1,6 +1,6 @@
 ﻿namespace Luzyce.Core.Models.Order;
 
-public class GetWarehouseLevelsResponseDto
+public class WarehouseStocks
 {
     public int ProductId { get; set; }
     public int WarehouseId { get; set; }
