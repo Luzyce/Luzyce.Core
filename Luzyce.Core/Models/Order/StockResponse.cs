@@ -2,5 +2,5 @@
 
 public class StockResponse
 {
-    public List<WarehouseStocks> WarehousesStocks { get; set; } = [];
+    public List<ProductWarehouseStocks> ProductWarehousesStocks { get; set; } = [];
 }
