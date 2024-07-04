@@ -15,5 +15,5 @@ public class GetProductionOrderPositions
     public int? NumberOfChanges { get; set; }
     public int? QuantityMade { get; set; }
     public string? MethodOfPackaging { get; set; }
-    public int? quantityPerPack { get; set; }
+    public int? QuantityPerPack { get; set; }
 }
