@@ -2,7 +2,7 @@
 
 namespace Luzyce.Core.Models.ProductionOrder;
 
-public class GetProductionOrderPositions
+public class GetProductionOrderPosition
 { 
     public int Id { get; set; }
     public int QuantityNetto { get; set; }
