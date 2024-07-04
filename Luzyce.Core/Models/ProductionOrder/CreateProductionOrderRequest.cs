@@ -2,8 +2,8 @@
 
 namespace Luzyce.Core.Models.ProductionOrder;
 
-public class CreateProductionOrderDto
+public class CreateProductionOrderRequest
 {
     public GetOrderResponseDto Order { get; set; } = new GetOrderResponseDto();
-    public List<GetProductionOrderPositionDto> ProductionOrderPositions { get; set; } = [];
+    public List<CreateProductionOrder> ProductionOrderPositions { get; set; } = [];
 }
