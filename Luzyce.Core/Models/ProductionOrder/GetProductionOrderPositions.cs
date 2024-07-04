@@ -16,4 +16,5 @@ public class GetProductionOrderPositions
     public int? QuantityMade { get; set; }
     public string? MethodOfPackaging { get; set; }
     public int? QuantityPerPack { get; set; }
+    public int ProductId { get; set; }
 }
