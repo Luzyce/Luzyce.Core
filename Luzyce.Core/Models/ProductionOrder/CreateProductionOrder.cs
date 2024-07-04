@@ -8,4 +8,5 @@ public class CreateProductionOrder
     public string Dekor { get; set; } = string.Empty;
     public int Gross { get; set; }
     public int Net { get; set; }
+    public int SubiektProductId { get; set; }
 }
