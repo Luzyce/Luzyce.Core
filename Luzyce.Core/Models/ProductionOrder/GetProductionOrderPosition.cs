@@ -17,4 +17,5 @@ public class GetProductionOrderPosition
     public string? MethodOfPackaging { get; set; }
     public int? QuantityPerPack { get; set; }
     public int ProductId { get; set; }
+    public string Unit { get; set; } = string.Empty;
 }
