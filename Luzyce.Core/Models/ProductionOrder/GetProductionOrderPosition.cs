@@ -19,4 +19,5 @@ public class GetProductionOrderPosition
     public int ProductId { get; set; }
     public string Unit { get; set; } = string.Empty;
     public string? ProductionOrderNumber { get; set; }
+    public string Client { get; set; } = string.Empty;
 }
