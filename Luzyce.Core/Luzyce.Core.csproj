@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>8.0.2</Version>
+    <Version>8.0.3</Version>
     <Title>Luzyce.Core</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Luzyce/Luzyce.Core.git</RepositoryUrl>
