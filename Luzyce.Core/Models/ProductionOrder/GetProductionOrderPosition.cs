@@ -21,5 +21,5 @@ public class GetProductionOrderPosition
     public string Unit { get; set; } = string.Empty;
     public string? ProductionOrderNumber { get; set; }
     public string Client { get; set; } = string.Empty;
-    public GetOrderPositionResponseDto OrderPosition { get; set; } = new GetOrderPositionResponseDto();
+    public int Priority { get; set; }
 }
