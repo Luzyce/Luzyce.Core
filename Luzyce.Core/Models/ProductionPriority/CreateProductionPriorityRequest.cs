@@ -4,5 +4,5 @@ namespace Luzyce.Core.Models.ProductionPriority;
 
 public class CreateProductionPriorityRequest
 {
-    public List<GetProductionOrderPosition> position { get; set; } = [];
+    public List<GetProductionOrderPosition> positions { get; set; } = [];
 }
