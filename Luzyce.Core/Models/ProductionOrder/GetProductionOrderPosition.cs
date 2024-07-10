@@ -1,4 +1,5 @@
 ﻿using Luzyce.Core.Models.Lampshade;
+using Luzyce.Core.Models.Order;
 
 namespace Luzyce.Core.Models.ProductionOrder;
 
@@ -20,4 +21,5 @@ public class GetProductionOrderPosition
     public string Unit { get; set; } = string.Empty;
     public string? ProductionOrderNumber { get; set; }
     public string Client { get; set; } = string.Empty;
+    public GetOrderPositionResponseDto OrderPosition { get; set; } = new GetOrderPositionResponseDto();
 }
