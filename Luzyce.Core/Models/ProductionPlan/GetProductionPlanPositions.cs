@@ -2,5 +2,5 @@
 
 public class GetProductionPlanPositions
 {
-    public GetProductionPlanPosition ProductionPlanPosition { get; set; } = new GetProductionPlanPosition();
+    public List<GetProductionPlanPosition> ProductionPlanPositions { get; set; } = [];
 }
