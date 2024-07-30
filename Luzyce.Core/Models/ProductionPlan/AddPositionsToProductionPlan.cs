@@ -1,6 +1,6 @@
 ﻿namespace Luzyce.Core.Models.ProductionPlan;
 
-public class AddItemsToProductionPlan
+public class AddPositionsToProductionPlan
 {
     public DateOnly Date { get; set; }
     public int Change { get; set; }
