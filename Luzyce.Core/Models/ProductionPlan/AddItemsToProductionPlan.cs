@@ -5,5 +5,5 @@ public class AddItemsToProductionPlan
     public DateOnly Date { get; set; }
     public int Change { get; set; }
     public int Team { get; set; }
-    public Dictionary<int, int> Items { get; set; } = new();
+    public Dictionary<int, int> Positions { get; set; } = new();
 }
