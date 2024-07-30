@@ -6,5 +6,5 @@ public class GetProductionPlanPosition
 {
     public int Id { get; set; }
     public GetDocumentPositionResponseDto DocumentPosition { get; set; } = new GetDocumentPositionResponseDto();
-    public int NumberOfHours { get; set; }
+    public int? NumberOfHours { get; set; }
 }
