@@ -6,4 +6,6 @@ public class GetLampshadeNorm
     public GetLampshade Lampshade { get; set; } = new GetLampshade();
     public GetVariantResponseDto Variant { get; set; } = new GetVariantResponseDto();
     public int QuantityPerChange { get; set; }
+    public int? WeightBrutto { get; set; }
+    public int? WeightNetto { get; set; }
 }
