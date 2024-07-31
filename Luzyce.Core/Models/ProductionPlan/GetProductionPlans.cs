@@ -2,5 +2,5 @@
 
 public class GetProductionPlans
 {
-    public List<GetProductionPlan> ProductionPlans { get; set; } = [];
+    public List<GetProductionPlanForCalendar> ProductionPlans { get; set; } = [];
 }
