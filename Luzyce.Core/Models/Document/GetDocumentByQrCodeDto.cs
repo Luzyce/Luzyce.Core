@@ -1,6 +1,6 @@
 namespace Luzyce.Core.Models.Document;
 
-public class GetDocumentByNumberDto
+public class GetDocumentByQrCodeDto
 {
     public required string Number { get; set; }
 }
