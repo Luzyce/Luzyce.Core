@@ -8,4 +8,5 @@ public class ProductWarehouseStocks
     public int QuantityRes { get; set; }
     public int QuantityMax { get; set; }
     public List<WarehouseStocks> WarehouseStocks { get; set; } = [];
+    public int Norm { get; set; }
 }
