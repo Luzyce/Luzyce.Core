@@ -10,6 +10,6 @@ public class GetProductionOrderForList
     public string CustomerName { get; set; } = string.Empty;
     public DateTime ProdOrderDate { get; set; }
     public string ProdOrderNumber { get; set; } = string.Empty;
-    public DateTime DeliveryDate { get; set; }
+    public DateTime? DeliveryDate { get; set; }
     public GetStatusResponseDto Status { get; set; } = new();
 }
