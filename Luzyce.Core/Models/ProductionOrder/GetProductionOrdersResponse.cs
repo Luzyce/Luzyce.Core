@@ -2,5 +2,5 @@
 
 public class GetProductionOrdersResponse
 {
-   public List<GetProductionOrder> ProductionOrders { get; set; } = [];
+   public List<GetProductionOrderForList> ProductionOrders { get; set; } = [];
 }
