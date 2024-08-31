@@ -4,7 +4,7 @@ public class UpdateProductionOrderPosition
 {
     public int Id { get; set; }
     public int QuantityNetto { get; set; }
-    public int? NumberOfChanges { get; set; }
+    public decimal? NumberOfChanges { get; set; }
     public int? QuantityPerChange { get; set; }
     public DateTime? ExecutionDate { get; set; }
     public int? QuantityMade { get; set; }
