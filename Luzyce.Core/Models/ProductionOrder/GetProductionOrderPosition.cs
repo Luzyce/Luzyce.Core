@@ -16,8 +16,6 @@ public class GetProductionOrderPosition
     public string Remarks { get; set; } = string.Empty;
     public decimal? NumberOfChanges { get; set; }
     public int? QuantityMade { get; set; }
-    public string? MethodOfPackaging { get; set; }
-    public int? QuantityPerPack { get; set; }
     public int ProductId { get; set; }
     public string Unit { get; set; } = string.Empty;
     public string? ProductionOrderNumber { get; set; }
