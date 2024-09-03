@@ -7,8 +7,7 @@ public class GetProductionPlanForCalendar
 {
     public int Id { get; set; }
     public DateOnly Date { get; set; }
-    public int Change { get; set; }
+    public GetShift Shift { get; set; } = new();
     public int Team { get; set; }
-    public GetUserResponseDto? ShiftSupervisor { get; set; }
     public GetStatusResponseDto? Status { get; set; }
 }
