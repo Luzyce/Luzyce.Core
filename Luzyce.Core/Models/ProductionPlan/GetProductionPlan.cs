@@ -9,6 +9,7 @@ public class GetProductionPlan
     public DateOnly Date { get; set; }
     public GetShift Shift { get; set; } = new();
     public int Team { get; set; }
+    public GetUserResponseDto? HeadsOfMetallurgicalTeams { get; set; }
     public GetStatusResponseDto? Status { get; set; }
     public List<GetProductionPlanPosition> ProductionPlanPositions { get; set; } = [];
 }
