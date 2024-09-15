@@ -10,5 +10,6 @@ public class GetOrderResponseDto
     public string CustomerName { get; set; } = string.Empty;
     public DateTime? DeliveryDate { get; set; }
     public int Status { get; set; }
+    public string Remarks { get; set; } = string.Empty;
     public List<GetOrderPositionResponseDto> Positions { get; set; } = [];
 }
