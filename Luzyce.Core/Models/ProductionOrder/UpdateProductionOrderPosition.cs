@@ -9,6 +9,7 @@ public class UpdateProductionOrderPosition
     public DateTime? ExecutionDate { get; set; }
     public int? QuantityMade { get; set; }
     public string Remarks { get; set; } = string.Empty;
+    public string? CustomerLampshadeNumber { get; set; }
     public string? MethodOfPackaging { get; set; }
     public int? QuantityPerPack { get; set; }
 }
