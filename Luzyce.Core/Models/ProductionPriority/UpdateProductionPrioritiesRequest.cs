@@ -2,7 +2,7 @@
 
 namespace Luzyce.Core.Models.ProductionPriority;
 
-public class CreateProductionPriorityRequest
+public class UpdateProductionPrioritiesRequest
 {
     public List<GetProductionOrderPosition> positions { get; set; } = [];
 }
