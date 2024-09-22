@@ -4,6 +4,6 @@ namespace Luzyce.Core.Models.Log;
 
 public class AssignUserDto
 {
-    public GetUserResponseDto User { get; set; } = new();
-    public GetLog Log { get; set; } = new();
+    public int UserId { get; set; }
+    public List<GetLog> Logs { get; set; } = [];
 }
