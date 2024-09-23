@@ -17,11 +17,11 @@ public class GetKwit
     public DateTime UpdatedAt { get; set; }
     public DateTime? ClosedAt { get; set; }
     public GetStatusResponseDto? Status { get; set; } = new GetStatusResponseDto();
-    public GetClient LockedBy { get; set; } = new GetClient();
+    public GetClient? LockedBy { get; set; } = new GetClient();
 
     public int Quantity { get; set; } // from ProductionPlanPosition
     public int QuantityNetto { get; set; } // from KwitPosition
-    public int QuantityBrutto { get; set; } // from KwitPosition
+    public int QuantityGross { get; set; } // from KwitPosition
     public int QuantityLoss { get; set; } // from KwitPosition
     public int QuantityToImprove { get; set; } // from KwitPosition
 }
