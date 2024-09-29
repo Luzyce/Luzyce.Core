@@ -29,4 +29,6 @@ jobs:
         version=$(grep -oPm1 "(?<=<Version>)[^<]+" Luzyce.Core/Luzyce.Core.csproj)
         echo "version=$version" >> $GITHUB_ENV
     - name: Push to GitHub Packages
-      run: dotnet nuget push Luzyce.Core/bin/Release/Luzyce.Core.${{ env.version }}.nupkg --api-key "${{ secrets.GITHUB_TOKEN }}" -s https://nuget.pkg.github.com/ddnowicki/index.json
+      run: |
+        dotnet nuget add source --username ddnowicki --password "${{ secrets.GITHUB_TOKEN }}" --store-password-in-clear-text --name github "https://nuget.pkg.github.com/ddnowicki/index.json"
+        dotnet nuget push Luzyce.Core/bin/Release/Luzyce.Core.${{ env.version }}.nupkg --api-key "${{ secrets.GITHUB_TOKEN }}" -s https://nuget.pkg.github.com/ddnowicki/index.json
