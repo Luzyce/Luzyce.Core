@@ -24,4 +24,6 @@ public class GetKwit
     public int QuantityGross { get; set; } // from KwitPosition
     public int QuantityLoss { get; set; } // from KwitPosition
     public int QuantityToImprove { get; set; } // from KwitPosition
+
+    public List<GetLacks>? Lacks { get; set; } = null;
 }
