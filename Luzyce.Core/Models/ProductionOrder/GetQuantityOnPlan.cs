@@ -3,6 +3,9 @@
 public class GetQuantityOnPlan
 {
     public int Quantity { get; set; }
+    public int QuantityNetto { get; set; }
+    public int QuantityLoss { get; set; }
+    public int QuantityToImprove { get; set; }
 
     // Kwit
     public string KwitId { get; set; } = string.Empty;
