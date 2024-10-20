@@ -9,6 +9,7 @@ public class GetProductionOrderPosition
     public int QuantityNetto { get; set; }
     public int QuantityGross { get; set; }
     public int QuantityOnPlans { get; set; }
+    public List<GetQuantityOnPlan> QuantitiesOnPlans { get; set; } = [];
     public DateTime? ExecutionDate { get; set; }
     public GetLampshade Lampshade { get; set; } = new GetLampshade();
     public GetLampshadeNorm LampshadeNorm { get; set; } = new GetLampshadeNorm();
