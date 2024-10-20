@@ -5,6 +5,7 @@ public class GetQuantityOnPlan
     public int Quantity { get; set; }
 
     // Kwit
+    public string KwitId { get; set; } = string.Empty;
     public string KwitName { get; set; } = string.Empty;
     public string KwitNumber { get; set; } = string.Empty;
 
