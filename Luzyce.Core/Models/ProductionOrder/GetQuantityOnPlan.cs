@@ -6,6 +6,7 @@ public class GetQuantityOnPlan
 
     // Kwit
     public string KwitName { get; set; } = string.Empty;
+    public string KwitNumber { get; set; } = string.Empty;
 
     // ProductionPlan
     public DateOnly Date { get; set; }
